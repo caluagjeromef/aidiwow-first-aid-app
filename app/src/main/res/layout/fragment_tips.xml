@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idLinear"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".TipsFrag">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/idViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/idDotsLayout">
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/idBtnPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idViewPager"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorTransparentWhite"
+        android:text="Previous"
+        android:textColor="@color/black"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/idBtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idViewPager"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorTransparentWhite"
+        android:text="Next"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/idDotsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+    </LinearLayout>
+
+
+</RelativeLayout>
