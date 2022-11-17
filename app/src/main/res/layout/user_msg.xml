@@ -11,8 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_margin="5dp"
-        android:background="@color/red"
-        app:cardBackgroundColor="@color/red"
+        app:cardBackgroundColor="@color/userMsgBlue"
         app:cardCornerRadius="25dp"
         app:cardElevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,12 +26,12 @@
 
             <TextView
                 android:id="@+id/idUserMsg"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:padding="5dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 tools:text="User Message" />
 
             <ImageView

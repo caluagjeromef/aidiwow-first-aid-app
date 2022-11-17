@@ -9,7 +9,7 @@
     android:layout_alignParentLeft="true"
     android:layout_margin="5dp"
     app:cardElevation="10dp"
-    app:cardBackgroundColor="@color/teal_700"
+    app:cardBackgroundColor="#DCDCDC"
     app:cardCornerRadius="25dp">
 
     <LinearLayout
@@ -21,7 +21,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="5dp"
-            android:src="@drawable/ic_chatbot1"/>
+            android:src="@drawable/ic_chatbot"/>
 
         <TextView
             android:layout_width="match_parent"
