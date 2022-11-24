@@ -54,7 +54,7 @@ public class BotFrag extends Fragment {
             @Override
             public void onClick(View view) {
                 if (userMsg.getText().toString().isEmpty()){
-                    Toast.makeText(getActivity().getApplicationContext(),"Please enter response",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity().getApplicationContext(),"Please enter a message",Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -65,6 +65,14 @@ public class BotFrag extends Fragment {
         });
         return view;
     }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        chatsModalArrayList.add(new ChatsModal("Hello, what can I do for you today? ",BOT_KEY));
+        chatAdpater.notifyDataSetChanged();
+    }
+
     private void getResponse(String message){
         chatsModalArrayList.add(new ChatsModal(message,USER_KEY));
         chatAdpater.notifyDataSetChanged();
@@ -88,7 +96,7 @@ public class BotFrag extends Fragment {
 
             @Override
             public void onFailure(Call<MsgModal> call, Throwable t) {
-                chatsModalArrayList.add(new ChatsModal("Please revert your question",BOT_KEY));
+                chatsModalArrayList.add(new ChatsModal("Please revert your message",BOT_KEY));
                 chatAdpater.notifyDataSetChanged();
             }
         });
