@@ -22,13 +22,14 @@
             android:id="@+id/imgHospital"
             android:padding="0dp"
             android:layout_marginStart="5dp"
+            android:backgroundTint="@color/white"
             android:src="@drawable/ic_baseline_local_hospital_24"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="HOSPITAL MAP"
+            android:text="MAP"
             android:layout_marginStart="5dp"
             android:textColor="@color/black"
             android:textSize="25sp"
