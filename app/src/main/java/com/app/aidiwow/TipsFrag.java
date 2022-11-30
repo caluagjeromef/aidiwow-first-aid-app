@@ -62,7 +62,7 @@ public class TipsFrag extends Fragment {
     }
 
     public void addDotsIndicator(int position){
-        Dots = new TextView[3];
+        Dots = new TextView[10];
         dotsLayout.removeAllViews();
 
         for(int i=0; i< Dots.length; i++) {

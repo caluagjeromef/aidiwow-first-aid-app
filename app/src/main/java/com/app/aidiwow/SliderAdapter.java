@@ -23,19 +23,19 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     public int[] slide_images = new int[]{
-            R.drawable.trivia1,
-            R.drawable.trivia2,
-            R.drawable.trivia3
+            R.drawable.ttimg1,
+            R.drawable.ic_chatbot,
+            R.drawable.ic_chatbot
     };
 
     public String[] slide_headings = new String[] {
-            "TRIVIA1",
+            "The 3p's – The Primary Goals of First Aid",
             "TRIVIA2",
             "TRIVIA3"
     };
 
     public String[] slide_desc = new String[]{
-            "HMMMMMMMMMMMMMMMMMM",
+            "The 3 P's: \nPreserve life. \nPrevent further injury. \nPromote recovery.",
             "AAAAAAAAAAAAAAAAAAA",
             "YEEEEEEEEEEEEEEEEAA"
     };
@@ -57,9 +57,9 @@ public class SliderAdapter extends PagerAdapter {
         layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.slide_layout,container,false);
 
-          ImageView slideImageView = (ImageView) view.findViewById(R.id.imgTrivia);
-          TextView slideHeading = (TextView) view.findViewById(R.id.headingsTrivia);
-          TextView slideDesc = (TextView) view.findViewById(R.id.descTrivia);
+          ImageView slideImageView = view.findViewById(R.id.imgTrivia);
+          TextView slideHeading = view.findViewById(R.id.headingsTrivia);
+          TextView slideDesc = view.findViewById(R.id.descTrivia);
 
           slideImageView.setImageResource(slide_images[position]);
           slideHeading.setText(slide_headings[position]);
