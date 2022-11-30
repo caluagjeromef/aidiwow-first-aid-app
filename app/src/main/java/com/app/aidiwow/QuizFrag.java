@@ -140,7 +140,7 @@ public class QuizFrag extends Fragment {
         quizModalArrayList.add(new QuizModal("What steps would you take to control bleeding from a nosebleed?","Sit casualty down, lean forward and pinch soft part of nose.","Sit casualty down, lean backward and pinch soft part of nose.","Lie casualty down and pinch soft part of nose.","Lie casualty down and pinch top of nose.","Sit casualty down, lean forward and pinch soft part of nose."));
         quizModalArrayList.add(new QuizModal("What is the first thing you should do for severe bleeding?","Put the victim in the recovery position","Direct pressure with clean cloth or hand","cover with a clean cloth","Give oxygen","Direct pressure with clean cloth or hand"));
         quizModalArrayList.add(new QuizModal("What is your FIRST action when examining the condition of a patient?","Check for breathing","Check for insurance","Speak to the victim and shake his shoulders","Check for external injuries.","Speak to the victim and shake his shoulders"));
-        quizModalArrayList.add(new QuizModal("What do you do for a small cut?","Wash with soap and water, cover with a sterile bandage","Only cover with a sterile bandage","Clean the wound with cotton wool","Wash with soap and water", "Only cover with a sterile bandage"));
+        quizModalArrayList.add(new QuizModal("What do you do for a small cut?","Wash with soap and water, cover with a sterile bandage","Only cover with a sterile bandage","Clean the wound with cotton wool","None of the above", "Wash with soap and water, cover with a sterile bandage"));
         quizModalArrayList.add(new QuizModal("What is included in the CPR procedure?","Rescue breathing only","Compression of the chest only","Rescue breathing and chest compressions","None of the above","Rescue breathing and chest compressions"));
         quizModalArrayList.add(new QuizModal("What is the best treatment of second degree burn?","Put Aloe vera lotion on it","Water","Put ice on the burn","Put soap on it","Water"));
         quizModalArrayList.add(new QuizModal("How do you check for breathing?","Listen","Look for rising chest", "Feel with the cheek","Look, Listen to and Feel","Look, Listen to and Feel"));
@@ -152,7 +152,9 @@ public class QuizFrag extends Fragment {
         quizModalArrayList.add(new QuizModal("When a person faints, which position should you put them to help with recovery?","Sit in a chair","Lay down with elevated legs","Lay flat","Standing position","Lay down with elevated legs"));
         quizModalArrayList.add(new QuizModal("Which of the following should not be applied to a sunburn?","Petroleum jelly","Moisturising lotion","Aloe vera gel","None of the above","Petroleum jelly"));
         quizModalArrayList.add(new QuizModal("What is the best way to check a patient’s circulation?","To check for noises, breathing, or eye movements","To punt the ear","To take the pulse","All of the above","To check for noises, breathing, or eye movements"));
-
+        quizModalArrayList.add(new QuizModal("Who is considered to be the father of modern first aid?","Jerome Caluag","Zian Espiridion","Friedrich Esmarch","None of the above","Friedrich Esmarch"));
+        quizModalArrayList.add(new QuizModal("Which one does not belong to the 3P's of first aid","Preserve life","Prevent further injury","Protect the unconscious","Promote recovery","Protect the unconscious"));
+        quizModalArrayList.add(new QuizModal("What does the ABCD of first aid stand for?","Airway, Breathing, Circulation, Disability","Airplane, Bromance, Circumcision, Disabled","Accuracy, Body, Casualty , Damage","Armpit, Brain, Calf, Diaphragm","Airway, Breathing, Circulation, Disability"));
     }
 
 
