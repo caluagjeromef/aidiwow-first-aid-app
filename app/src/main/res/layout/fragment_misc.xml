@@ -20,8 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="15dp"
-                app:cardBackgroundColor="#c2e9fb">
+                app:cardBackgroundColor="#009efd">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -29,23 +28,823 @@
                     android:layout_gravity="center"
                     android:fontFamily="serif-monospace"
                     android:gravity="center"
+                    android:textAlignment="center"
                     android:padding="10dp"
                     android:text="EMERGENCY HOTLINES"
-                    android:textColor="@color/black"
-                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
-            <TextView
-                android:layout_width="wrap_content"
+            <TableLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:padding="20dp"
-                android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_duis_aute_irure_dolor_in_reprehenderit_in_voluptate_velit_esse_cillum_dolore_eu_fugiat_nulla_pariatur_excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia_deserunt_mollit_anim_id_est_laborum"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="12dp" />
+android:layout_margin="10dp">
+
+                <TableRow
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="201dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tblTitle"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/national"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/red1"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="9-1-1"
+                        android:textColor="@color/red1"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+android:layout_margin="10dp">
+
+                <TableRow
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="201dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="serif-monospace"
+                        android:padding="10dp"
+                        android:text="@string/tblTitleRC"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/adamina"
+                        android:padding="10dp"
+                        android:text="@string/hotlinesRC"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/RCnums"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp">
+
+                <TableRow
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="201dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tblTitleBFP"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/bfp_ncr_hotline"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/BFPnum"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/bfp_information_desk"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/BFPnum1"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp">
+
+                <TableRow
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="201dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tblTitleP"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/smspnp"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/send_txt_pnp"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp">
+
+                <TableRow
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="201dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tblTitleL"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="National Capital Region"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(02) 421-1918"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Cagayan Valley"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(078) 844-1630"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Ilocos"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(072) 607-6528"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Central Luzon"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(045) 455-1145"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Cordillera Administrative Region"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(074) 304-2256"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="MIMAROPA"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(043) 723-4248"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="CALABARZON"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(049) 531-7266"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Bicol"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(052) 481-1656"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp">
+
+                <TableRow
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="201dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tblTitleV"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Western Visayas"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(033) 337-6671, \n509-7971"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Central Visayas"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(032) 416-5025, \n416-5025"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Eastern Visayas"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(053) 323-8453"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp">
+
+                <TableRow
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="201dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tblTitleZ"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Zamboanga Peninsula"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(062) 215-3984"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Northern Mindanao"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(088) 857-3988, \n875-3907"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Davao"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(082) 233-2022, \n233-0611"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="SOCCSKARGEN"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(083) 522-9759, \n553-2994"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="Cordillera Administrative Region"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="(074) 304-2256"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+                <TableRow
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="CARAGA"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:fontFamily="@font/adamina"
+                        android:text="@string/caraganum"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-20dp" />
+                </TableRow>
+            </TableLayout>
 
 
             <androidx.cardview.widget.CardView
@@ -53,7 +852,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="#c2e9fb">
+                app:cardBackgroundColor="#009efd">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -63,8 +862,8 @@
                     android:text="ABOUT US"
                     android:layout_gravity="center"
                     android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
 
@@ -74,10 +873,12 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:padding="20dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                android:fontFamily="@font/adamina"
+                android:text="@string/aboutUs"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="12dp" />
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
 
             <androidx.cardview.widget.CardView
@@ -85,7 +886,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="#c2e9fb">
+                app:cardBackgroundColor="#009efd">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -93,8 +894,8 @@
                     android:fontFamily="serif-monospace"
                     android:padding="10dp"
                     android:text="MISSION"
-                    android:textColor="@color/black"
-                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
                     android:layout_gravity="center"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -107,9 +908,11 @@
                 android:textAlignment="center"
                 android:layout_marginTop="10dp"
                 android:padding="20dp"
+                android:fontFamily="@font/adamina"
                 android:text="@string/Mission"
                 android:textColor="@color/black"
-                android:textSize="12dp" />
+                android:textSize="15sp"
+                android:textStyle="bold"/>
 
 
             <androidx.cardview.widget.CardView
@@ -117,7 +920,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="#c2e9fb">
+                app:cardBackgroundColor="#009efd">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -125,8 +928,8 @@
                     android:fontFamily="serif-monospace"
                     android:padding="10dp"
                     android:text="VISION"
-                    android:textColor="@color/black"
-                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
                     android:layout_gravity="center"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -138,17 +941,21 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:padding="20dp"
+                android:fontFamily="@font/adamina"
                 android:text="@string/Vision"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="12dp" />
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="#c2e9fb">
+                app:cardBackgroundColor="#009efd">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -156,8 +963,8 @@
                     android:fontFamily="serif-monospace"
                     android:padding="10dp"
                     android:text="DISCLAIMER"
-                    android:textColor="@color/black"
-                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
                     android:layout_gravity="center"
                     android:textAlignment="center"
                     android:textStyle="bold" />
@@ -169,11 +976,12 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:padding="20dp"
-                android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_duis_aute_irure_dolor_in_reprehenderit_in_voluptate_velit_esse_cillum_dolore_eu_fugiat_nulla_pariatur_excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia_deserunt_mollit_anim_id_est_laborum"
+                android:fontFamily="@font/adamina"
+                android:text="@string/disclaimer"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="12dp" />
-
+                android:textSize="15sp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
