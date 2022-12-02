@@ -72,6 +72,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Test"
+                        android:backgroundTint="#DCDCDC"
+                        android:textColor="@color/black"
                         android:layout_marginStart="5dp"/>
 
                     <com.google.android.material.chip.Chip
@@ -79,6 +81,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="First aid for bleeding"
+                        android:backgroundTint="#DCDCDC"
+                        android:textColor="@color/black"
                         android:layout_marginStart="5dp"/>
 
                     <com.google.android.material.chip.Chip
@@ -86,6 +90,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="First aid for [ ]"
+                        android:backgroundTint="#DCDCDC"
+                        android:textColor="@color/black"
                         android:layout_marginStart="5dp"/>
 
                     <com.google.android.material.chip.Chip
@@ -93,6 +99,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="First aid for [ ]"
+                        android:backgroundTint="#DCDCDC"
+                        android:textColor="@color/black"
                         android:layout_marginStart="5dp"/>
                 </LinearLayout>
 
@@ -138,10 +146,4 @@
             app:fabCustomSize="45dp"
             app:tint="@color/black" />
     </RelativeLayout>
-
-
-
-
-
-
 </RelativeLayout>

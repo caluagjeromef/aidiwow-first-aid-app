@@ -71,14 +71,12 @@ public class BotFrag extends Fragment {
             @Override
             public void onClick(View view) {
                 getResponse(chip1.getText().toString());
-
             }
         });
         chip2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 getResponse(chip2.getText().toString());
-
             }
         });
         return view;
