@@ -16,8 +16,9 @@
         android:layout_marginTop="-2dp"
         android:layout_marginEnd="0dp"
         android:background="@drawable/gradient_background_label"
+        android:gravity="center"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:id="@+id/awLL">
 
 
         <TextView
@@ -43,10 +44,62 @@
         android:layout_marginTop="50dp"
         android:layout_marginBottom="-4dp">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/idChats"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/awLL"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/idChats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-1dp"
+                    >
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/idChip1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Test"
+                        android:layout_marginStart="5dp"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/idChip2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First aid for bleeding"
+                        android:layout_marginStart="5dp"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/idChip3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First aid for [ ]"
+                        android:layout_marginStart="5dp"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/idChip4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First aid for [ ]"
+                        android:layout_marginStart="5dp"/>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
     </ScrollView>
 
     <RelativeLayout
@@ -84,8 +137,10 @@
             android:src="@drawable/ic_baseline_send_24"
             app:fabCustomSize="45dp"
             app:tint="@color/black" />
-
     </RelativeLayout>
+
+
+
 
 
 

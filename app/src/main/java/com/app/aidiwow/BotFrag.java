@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
+import com.google.android.material.chip.Chip;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -34,6 +35,7 @@ public class BotFrag extends Fragment {
     private final String USER_KEY = "user";
     private ArrayList<ChatsModal>chatsModalArrayList;
     private ChatAdpater chatAdpater;
+    private Chip chip1,chip2;
 
 
     @Override
@@ -41,7 +43,8 @@ public class BotFrag extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_bot,container,false);
 
-
+        chip1 = (Chip) view.findViewById(R.id.idChip1);
+        chip2 = (Chip) view.findViewById(R.id.idChip2);
         chatsRV = view.findViewById(R.id.idChats);
         userMsg = view.findViewById(R.id.idUserMsg);
         sendBtn = view.findViewById(R.id.idSend);
@@ -64,6 +67,20 @@ public class BotFrag extends Fragment {
 
             }
         });
+        chip1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip1.getText().toString());
+
+            }
+        });
+        chip2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip2.getText().toString());
+
+            }
+        });
         return view;
     }
 
@@ -72,6 +89,7 @@ public class BotFrag extends Fragment {
         super.onStart();
         chatsModalArrayList.add(new ChatsModal("Hello, what can I do for you today? ",BOT_KEY));
         chatAdpater.notifyDataSetChanged();
+
     }
 
     private void getResponse(String message){
