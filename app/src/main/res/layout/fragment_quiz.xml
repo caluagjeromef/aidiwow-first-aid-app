@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:fontFamily="serif-monospace"
         android:gravity="center"
         android:text="Questions done: "
         android:textAlignment="center"
@@ -24,9 +25,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/idQuestionNum"
         android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
         android:gravity="center"
         android:padding="10dp"
         android:text="Questions"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp" />
@@ -48,6 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:fontFamily="@font/adamina"
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 1"
@@ -61,6 +65,7 @@
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 2"
+                android:fontFamily="@font/adamina"
                 android:textAllCaps="false" />
 
             <Button
@@ -71,6 +76,7 @@
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 3"
+                android:fontFamily="@font/adamina"
                 android:textAllCaps="false" />
 
             <Button
@@ -81,6 +87,7 @@
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 4"
+                android:fontFamily="@font/adamina"
                 android:textAllCaps="false" />
         </LinearLayout>
     </ScrollView>

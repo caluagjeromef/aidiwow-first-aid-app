@@ -27,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Bot Message"
+            android:fontFamily="@font/adamina"
             android:id="@+id/idBotMsg"
             android:textColor="@color/black"
             android:layout_margin="5dp"

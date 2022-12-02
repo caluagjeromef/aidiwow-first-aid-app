@@ -24,6 +24,7 @@
         android:layout_alignParentBottom="true"
         android:background="@color/colorTransparentWhite"
         android:text="Previous"
+        android:fontFamily="@font/adamina"
         android:textColor="@color/black"
         android:visibility="invisible" />
 
@@ -36,6 +37,7 @@
         android:layout_alignParentBottom="true"
         android:background="@color/colorTransparentWhite"
         android:text="Next"
+        android:fontFamily="@font/adamina"
         android:textColor="@color/black" />
 
     <LinearLayout
