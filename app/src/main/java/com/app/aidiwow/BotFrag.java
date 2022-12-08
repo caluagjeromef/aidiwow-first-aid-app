@@ -79,6 +79,9 @@ public class BotFrag extends Fragment {
                 getResponse(chip2.getText().toString());
             }
         });
+
+
+
         return view;
     }
 

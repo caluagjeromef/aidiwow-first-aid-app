@@ -5,7 +5,7 @@
     <string name="aidiwow_assistant">AIDIWOW ASSISTANT</string>
     <string name="enter_message">Enter Message</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="Mission">To provide a helpful knowledge that can save lives by giving the best care to every patient through first aid , education and research</string>
+    <string name="Mission">To provide a helpful knowledge that can save lives by giving the best care to every patient through first aid , education and research.</string>
     <string name="Vision">To become the standard and top medical app that provides free medical support offline while also providing the most updated medical knowledge that is easily accessible to the masses.</string>
     <string name="disclaimer">The information on this application is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this mobile application is for general information purposes only.\n\n AIDIWOW makes no representation and assumes no responsibility for the accuracy of information contained on or available through this mobile app, and such information is subject to change without notice. You are encouraged to confirm any information obtained from or through this web site with other sources, and review all information regarding any medical condition or treatment with your physician. \n\nNEVER DISREGARD PROFESSIONAL MEDICAL ADVICE OR DELAY SEEKING MEDICAL TREATMENT BECAUSE OF SOMETHING YOU HAVE READ ON OR ACCESSED THROUGH THIS APP.</string>
     <string name="aboutUs">Just less than a year ago, we became fascinated by the idea of developing an AI first aid assistant. What if anyone could carry out first aid just as good as trained first aiders? Or gain access to medical knowledge which could be useful during emergencies? It may sound eccentric but what if we could make it happen? All in one app. All in your hands. That is AIDIWOW.</string>
@@ -26,4 +26,5 @@
     <string name="send_txt_pnp">Send TXT PNP to 2920</string>
     <string name="caraganum">(085) 815-6345,\n342-8753,\n341-8629</string>
     <string name="hotlinesRC">HOTLINES</string>
+    <string name="aidiwow_llc">© 2022 AIDIWOW LLC</string>
 </resources>

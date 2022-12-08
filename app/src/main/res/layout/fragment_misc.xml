@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-android:layout_margin="10dp">
+                android:layout_margin="10dp">
 
                 <TableRow
                     android:background="@color/orange"
@@ -95,7 +95,7 @@ android:layout_margin="10dp">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-android:layout_margin="10dp">
+                android:layout_margin="10dp">
 
                 <TableRow
                     android:background="@color/orange"
@@ -886,7 +886,8 @@ android:layout_margin="10dp">
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="#009efd">
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="@color/orange">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -906,8 +907,10 @@ android:layout_margin="10dp">
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textAlignment="center"
-                android:layout_marginTop="10dp"
-                android:padding="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
                 android:fontFamily="@font/adamina"
                 android:text="@string/Mission"
                 android:textColor="@color/black"
@@ -920,7 +923,8 @@ android:layout_margin="10dp">
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="#009efd">
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="@color/orange">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -939,8 +943,10 @@ android:layout_margin="10dp">
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:padding="20dp"
+                android:padding="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
                 android:fontFamily="@font/adamina"
                 android:text="@string/Vision"
                 android:textAlignment="center"
@@ -983,6 +989,24 @@ android:layout_margin="10dp">
                 android:textSize="15sp"
                 android:textStyle="bold"/>
 
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="-1dp"
+                android:layout_marginTop="25dp"
+                app:cardBackgroundColor="#1e3e4a">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/adamina"
+                    android:text="@string/aidiwow_llc"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    />
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
     </ScrollView>
