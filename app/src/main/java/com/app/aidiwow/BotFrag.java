@@ -109,6 +109,11 @@ public class BotFrag extends Fragment {
             public void onResponse(Call<MsgModal> call, Response<MsgModal> response) {
                 if(response.isSuccessful()){
                     MsgModal modal = response.body();
+                    // Replace all instances of the "." symbol with a period followed by a line break
+                    String modifiedMessage = modal.getCnt().replaceAll(";", ".\n\n");
+
+                    // Update the message in the modal and add it to the list
+                    modal.setCnt(modifiedMessage);
                     chatsModalArrayList.add(new ChatsModal(modal.getCnt(),BOT_KEY));
                     chatAdpater.notifyDataSetChanged();
                 }
@@ -121,4 +126,36 @@ public class BotFrag extends Fragment {
             }
         });
     }
+
+
+    /*private void getResponse(String message){
+        chatsModalArrayList.add(new ChatsModal(message,USER_KEY));
+        chatAdpater.notifyDataSetChanged();
+        String url = "http://api.brainshop.ai/get?bid=169799&key=lGB3xYk4VMUdhUeh&uid=[uid]&msg="+message;
+        String BASE_URL = "http://api.brainshop.ai/";
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
+        RetrofitAPI retrofitAPI = retrofit.create(RetrofitAPI.class);
+        Call<MsgModal> call = retrofitAPI.getMessage(url);
+
+        call.enqueue(new Callback<MsgModal>() {
+            @Override
+            public void onResponse(Call<MsgModal> call, Response<MsgModal> response) {
+                if(response.isSuccessful()){
+                    MsgModal modal = response.body();
+                    chatsModalArrayList.add(new ChatsModal(modal.getCnt(),BOT_KEY));
+                    chatAdpater.notifyDataSetChanged();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<MsgModal> call, Throwable t) {
+                chatsModalArrayList.add(new ChatsModal("Please revert your message",BOT_KEY));
+                chatAdpater.notifyDataSetChanged();
+            }
+        });
+    }*/
 }

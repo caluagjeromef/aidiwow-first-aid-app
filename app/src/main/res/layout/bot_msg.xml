@@ -32,7 +32,7 @@
             android:layout_margin="5dp"
             android:fontFamily="@font/adamina"
             android:justificationMode="inter_word"
-            android:lineSpacingExtra="10sp"
+            android:lineSpacingExtra="5sp"
             android:padding="5dp"
             android:textColor="@color/black"
             tools:text="Bot Message" />
