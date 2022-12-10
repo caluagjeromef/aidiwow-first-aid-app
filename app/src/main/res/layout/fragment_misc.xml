@@ -886,7 +886,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                android:layout_margin="20dp"
+                android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/orange">
 
                 <TextView
@@ -923,7 +923,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                android:layout_margin="20dp"
+                android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/orange">
 
                 <TextView

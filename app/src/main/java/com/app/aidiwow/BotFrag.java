@@ -35,7 +35,7 @@ public class BotFrag extends Fragment {
     private final String USER_KEY = "user";
     private ArrayList<ChatsModal>chatsModalArrayList;
     private ChatAdpater chatAdpater;
-    private Chip chip1,chip2;
+    private Chip chip1,chip2,chip3,chip4,chip5,chip6,chip7,chip8;
 
 
     @Override
@@ -45,6 +45,12 @@ public class BotFrag extends Fragment {
 
         chip1 = (Chip) view.findViewById(R.id.idChip1);
         chip2 = (Chip) view.findViewById(R.id.idChip2);
+        chip3 = (Chip) view.findViewById(R.id.idChip3);
+        chip4 = (Chip) view.findViewById(R.id.idChip4);
+        chip5 = (Chip) view.findViewById(R.id.idChip5);
+        chip6 = (Chip) view.findViewById(R.id.idChip6);
+        chip7 = (Chip) view.findViewById(R.id.idChip7);
+        chip8 = (Chip) view.findViewById(R.id.idChip8);
         chatsRV = view.findViewById(R.id.idChats);
         userMsg = view.findViewById(R.id.idUserMsg);
         sendBtn = view.findViewById(R.id.idSend);
@@ -79,6 +85,42 @@ public class BotFrag extends Fragment {
                 getResponse(chip2.getText().toString());
             }
         });
+        chip3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip3.getText().toString());
+            }
+        });
+        chip4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip4.getText().toString());
+            }
+        });
+        chip5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip5.getText().toString());
+            }
+        });
+        chip6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip6.getText().toString());
+            }
+        });
+        chip7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip7.getText().toString());
+            }
+        });
+        chip8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getResponse(chip8.getText().toString());
+            }
+        });
 
 
 
@@ -109,16 +151,12 @@ public class BotFrag extends Fragment {
             public void onResponse(Call<MsgModal> call, Response<MsgModal> response) {
                 if(response.isSuccessful()){
                     MsgModal modal = response.body();
-                    // Replace all instances of the "." symbol with a period followed by a line break
                     String modifiedMessage = modal.getCnt().replaceAll(";", ".\n\n");
-
-                    // Update the message in the modal and add it to the list
                     modal.setCnt(modifiedMessage);
                     chatsModalArrayList.add(new ChatsModal(modal.getCnt(),BOT_KEY));
                     chatAdpater.notifyDataSetChanged();
                 }
             }
-
             @Override
             public void onFailure(Call<MsgModal> call, Throwable t) {
                 chatsModalArrayList.add(new ChatsModal("Please revert your message",BOT_KEY));
@@ -126,36 +164,4 @@ public class BotFrag extends Fragment {
             }
         });
     }
-
-
-    /*private void getResponse(String message){
-        chatsModalArrayList.add(new ChatsModal(message,USER_KEY));
-        chatAdpater.notifyDataSetChanged();
-        String url = "http://api.brainshop.ai/get?bid=169799&key=lGB3xYk4VMUdhUeh&uid=[uid]&msg="+message;
-        String BASE_URL = "http://api.brainshop.ai/";
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-
-        RetrofitAPI retrofitAPI = retrofit.create(RetrofitAPI.class);
-        Call<MsgModal> call = retrofitAPI.getMessage(url);
-
-        call.enqueue(new Callback<MsgModal>() {
-            @Override
-            public void onResponse(Call<MsgModal> call, Response<MsgModal> response) {
-                if(response.isSuccessful()){
-                    MsgModal modal = response.body();
-                    chatsModalArrayList.add(new ChatsModal(modal.getCnt(),BOT_KEY));
-                    chatAdpater.notifyDataSetChanged();
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MsgModal> call, Throwable t) {
-                chatsModalArrayList.add(new ChatsModal("Please revert your message",BOT_KEY));
-                chatAdpater.notifyDataSetChanged();
-            }
-        });
-    }*/
 }
