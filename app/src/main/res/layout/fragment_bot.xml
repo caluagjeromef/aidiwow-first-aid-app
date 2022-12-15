@@ -20,7 +20,6 @@
         android:orientation="horizontal"
         android:id="@+id/awLL">
 
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,12 +48,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/awLL"
             android:orientation="vertical">
-
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/idChats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -69,7 +66,6 @@
                     <com.google.android.material.chip.ChipGroup
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip1"
                             android:layout_width="wrap_content"
@@ -78,7 +74,6 @@
                             android:backgroundTint="#DCDCDC"
                             android:text="First aid for stroke"
                             android:textColor="@color/black" />
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip2"
                             android:layout_width="wrap_content"
@@ -86,7 +81,6 @@
                             android:backgroundTint="#DCDCDC"
                             android:text="First aid for bleeding"
                             android:textColor="@color/black" />
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip3"
                             android:layout_width="wrap_content"
@@ -94,7 +88,6 @@
                             android:backgroundTint="#DCDCDC"
                             android:text="First aid for burn"
                             android:textColor="@color/black" />
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip4"
                             android:layout_width="wrap_content"
@@ -109,7 +102,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="-10dp"
                         android:layout_marginLeft="15dp">
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip5"
                             android:layout_width="wrap_content"
@@ -118,7 +110,6 @@
                             android:backgroundTint="#DCDCDC"
                             android:text="First aid for poisoning"
                             android:textColor="@color/black" />
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip6"
                             android:layout_width="wrap_content"
@@ -126,7 +117,6 @@
                             android:backgroundTint="#DCDCDC"
                             android:text="How to do CPR"
                             android:textColor="@color/black" />
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip7"
                             android:layout_width="wrap_content"
@@ -134,7 +124,6 @@
                             android:backgroundTint="#DCDCDC"
                             android:text="Diabetic Emergency"
                             android:textColor="@color/black" />
-
                         <com.google.android.material.chip.Chip
                             android:id="@+id/idChip8"
                             android:layout_width="wrap_content"
@@ -146,7 +135,6 @@
                 </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>
-
     </ScrollView>
 
     <RelativeLayout
@@ -155,7 +143,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="6dp">
-
         <EditText
             android:id="@+id/idUserMsg"
             android:layout_width="match_parent"
@@ -170,7 +157,6 @@
             android:singleLine="true"
             android:textColor="@color/black"
             android:textColorHint="#808080" />
-
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/idSend"
             android:layout_width="wrap_content"

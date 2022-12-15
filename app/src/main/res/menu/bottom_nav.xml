@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_bot"
-        android:icon="@drawable/ic_chatbot"
+        android:icon="@drawable/ic_chatbot1"
         android:title="Assistant"/>
     <item
         android:id="@+id/nav_tips"
