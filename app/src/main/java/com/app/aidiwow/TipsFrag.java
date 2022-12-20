@@ -21,9 +21,7 @@ public class TipsFrag extends Fragment {
 
     private ViewPager viewPager;
     private LinearLayout dotsLayout;
-
     private TextView[] Dots;
-
     private SliderAdapter sliderAdapter;
     private Button btnNext;
     private Button btnPrev;
@@ -113,12 +111,9 @@ public class TipsFrag extends Fragment {
                 btnNext.setText("Next");
                 btnPrev.setText("Previous");
             }
-
         }
-
         @Override
         public void onPageScrollStateChanged(int state) {
-
         }
     };
 
