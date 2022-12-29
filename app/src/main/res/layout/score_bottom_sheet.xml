@@ -17,7 +17,7 @@
         android:text="Your score is"
         android:layout_margin="10dp"
         android:padding="5dp"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="@font/poppins_medium"
         android:id="@+id/idScore"/>
 
     <Button

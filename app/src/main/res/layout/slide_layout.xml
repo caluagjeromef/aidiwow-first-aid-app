@@ -20,24 +20,26 @@
         android:layout_marginTop="10dp"
         android:text="TRIVIA HERE"
         android:textColor="@color/black"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="@font/poppins_bold"
         android:textSize="25sp" />
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/headingsTrivia"
-    android:layout_marginTop="50dp"
-    android:layout_marginBottom="50dp">
-    <TextView
-        android:id="@+id/descTrivia"
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/adamina"
-        android:gravity="center"
-        android:paddingVertical="10dp"
-        android:paddingHorizontal="25dp"
-        android:text="@string/lorem_ipsum"
-        android:textColor="@color/black"
-        android:textSize="20sp" />
-</ScrollView>
+        android:layout_below="@id/headingsTrivia"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/descTrivia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="10dp"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </ScrollView>
 </RelativeLayout>
