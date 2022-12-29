@@ -16,7 +16,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imgTrivia"
         android:gravity="center"
-        android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:text="TRIVIA HERE"
         android:textColor="@color/black"

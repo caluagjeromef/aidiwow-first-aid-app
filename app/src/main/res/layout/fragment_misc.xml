@@ -26,7 +26,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/poppins_medium"
+                    android:fontFamily="serif-monospace"
                     android:gravity="center"
                     android:textAlignment="center"
                     android:padding="10dp"
@@ -776,7 +776,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_medium"
+                    android:fontFamily="serif-monospace"
                     android:padding="10dp"
                     android:text="ABOUT US"
                     android:layout_gravity="center"
@@ -809,7 +809,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_medium"
+                    android:fontFamily="serif-monospace"
                     android:padding="10dp"
                     android:text="MISSION"
                     android:textColor="@color/white"
@@ -843,7 +843,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_medium"
+                    android:fontFamily="serif-monospace"
                     android:padding="10dp"
                     android:text="VISION"
                     android:textColor="@color/white"
@@ -876,7 +876,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_medium"
+                    android:fontFamily="serif-monospace"
                     android:padding="10dp"
                     android:text="DISCLAIMER"
                     android:textColor="@color/white"

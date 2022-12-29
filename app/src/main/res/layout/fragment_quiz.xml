@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:fontFamily="@font/adamina"
+                android:fontFamily="@font/poppins"
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 1"
@@ -65,7 +65,7 @@
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 2"
-                android:fontFamily="@font/adamina"
+                android:fontFamily="@font/poppins"
                 android:textAllCaps="false" />
 
             <Button
@@ -76,7 +76,7 @@
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 3"
-                android:fontFamily="@font/adamina"
+                android:fontFamily="@font/poppins"
                 android:textAllCaps="false" />
 
             <Button
@@ -87,7 +87,7 @@
                 android:backgroundTint="#009efd"
                 android:padding="15dp"
                 android:text="Option 4"
-                android:fontFamily="@font/adamina"
+                android:fontFamily="@font/poppins"
                 android:textAllCaps="false" />
         </LinearLayout>
     </ScrollView>

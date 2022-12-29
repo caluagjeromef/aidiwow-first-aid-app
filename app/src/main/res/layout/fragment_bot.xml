@@ -16,7 +16,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="-1dp"
         android:layout_marginEnd="0dp"
-        android:background="#ADD8E6"
+        android:background="#ace0f9"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -24,8 +24,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/poppins_medium"
             android:layout_marginTop="3dp"
+            android:fontFamily="@font/poppins_medium"
             android:text="@string/aidiwow_assistant"
             android:textColor="@color/black"
             android:textSize="30sp"
@@ -162,6 +162,7 @@
             android:layout_marginEnd="3dp"
             android:layout_marginBottom="3dp"
             android:layout_toStartOf="@id/idSend"
+            android:fontFamily="@font/poppins"
             android:hint="@string/enter_message"
             android:singleLine="true"
             android:textColor="@color/black"

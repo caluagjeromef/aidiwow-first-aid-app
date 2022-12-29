@@ -33,7 +33,6 @@
         android:text="@string/aidiwow"
         android:textColor="#07cff1"
         android:textSize="30sp"
-        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -41,7 +40,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/adamina"
+        android:fontFamily="@font/poppins"
         android:text="Your one tap firstaid app"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,17 +51,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        app:cardBackgroundColor="#113a58"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/white">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/adamina"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:text="@string/aidiwow_llc"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
