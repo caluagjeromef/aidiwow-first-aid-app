@@ -16,7 +16,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="-1dp"
         android:layout_marginEnd="0dp"
-        android:background="#ace0f9"
+        android:background="@drawable/rounded_rectangle"
+        android:backgroundTint="@color/white"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -28,7 +29,7 @@
             android:fontFamily="@font/poppins_medium"
             android:text="@string/aidiwow_assistant"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -45,7 +46,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/awLL"
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
@@ -73,7 +73,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
-                            android:backgroundTint="#DCDCDC"
+                            android:background="@drawable/rounded_rectangle"
                             android:text="First aid for stroke"
                             android:textColor="@color/black" />
 
