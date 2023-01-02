@@ -68,7 +68,7 @@ public class MapsFrag extends Fragment {
 
                 FetchData fetchData=new FetchData();
                 fetchData.execute(dataFetch);
-                Toast.makeText(getActivity().getApplicationContext(), "This is supposed to show nearest hospitals from your location \nbut we are unable to provide billing details to enable this google api feature :<", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity().getApplicationContext(), "Nearby Hospitals", Toast.LENGTH_LONG).show();
             }
         });
 
