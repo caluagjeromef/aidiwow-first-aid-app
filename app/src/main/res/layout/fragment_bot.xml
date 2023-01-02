@@ -26,9 +26,10 @@
             android:layout_gravity="center"
             android:layout_marginTop="3dp"
             android:fontFamily="@font/poppins_medium"
+            android:padding="3dp"
             android:text="@string/aidiwow_assistant"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -72,7 +73,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
-                            android:background="@null"
+                            android:backgroundTint="#DCDCDC"
                             android:text="First aid for stroke"
                             android:textColor="@color/black" />
 
@@ -151,6 +152,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="6dp">
+
         <EditText
             android:id="@+id/idUserMsg"
             android:layout_width="match_parent"
